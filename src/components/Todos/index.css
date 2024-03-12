@@ -1,0 +1,131 @@
+.todos-app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(47, 51, 55);
+    padding: 45px 25px 45px 25px;
+}
+  
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+}
+  
+.input-element {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(54, 53, 53);
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 8px;
+    width: 40%;
+    padding: 10px;
+    border: none;
+}
+  
+.add-todo-button {
+    background-color: rgb(243, 68, 188);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    font-family: sans-serif;
+    width: 15%;
+    padding: 12px 28px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+  
+.add-todo-button:hover {
+    background-color: white;
+    border: 2px solid rgb(243, 68, 188);
+    color: rgb(243, 68, 188);
+}
+  
+
+.todo-list-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    width: 100%;
+}
+
+.todo-item-container {
+    background-color: rgb(93, 89, 223);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 96%;
+    padding: 5px 20px 5px 20px;
+}
+  
+.todo-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    font-family: sans-serif;
+}
+
+.updated-todo-count {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.input-ele {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    font-family: sans-serif;
+    margin-right: 20px;
+    padding: 6px;
+}
+
+.input-ele-save-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.input-ele-cross-edit-btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.edit-button {
+    background-color: transparent;
+    border: none;
+}
+
+
+.cross-button {
+    background-color: transparent;
+    border: none;
+}
+  
+.save-button {
+    background-color: rgb(234, 126, 18);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    padding: 6px 14px;
+    font-family: sans-serif;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+
+
+
+
+
